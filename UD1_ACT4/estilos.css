@@ -1,0 +1,51 @@
+header {
+    background: linear-gradient(to right, green, rgb(255, 230, 0));
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+header p{
+    height: 50px;
+}
+
+nav {
+    background-color: rgb(49, 49, 49);
+    height: 3em;
+
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+li {
+    list-style: none;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+#enlace-uno {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    background-color: rgb(228, 228, 228);
+    padding: 0;
+}
+
+article {
+    background-color: rgb(196, 196, 196);
+    margin: 1rem;
+    padding: .5rem;
+}
+
+#enlace-dos {
+    color: blue;
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+}

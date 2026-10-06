@@ -38,14 +38,41 @@
             font-size: 2rem;
             font-weight: bold;
         }
+        
+        .left-sided {
+        float: left;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        }
+
+        .right-sided {
+        float: right;
+        margin-left: 1em;
+        margin-bottom: 1em;
+        }
+
+        .img-centered {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        .clearing {
+        clear: both;
+        }
     </style>
 </head>
 
 <body>
     <h1>Pagina de Inicio</h1>
+    <nav class="menu">
+        <a href="#capitulo1">Capítulo 1</a> |
+        <a href="#capitulo2">Capítulo 2</a> |
+        <a href="#capitulo3">Capítulo 3</a>
+    </nav>
     <div>
-        <h2></h2>
-        <img src="camera-man-marmot-7272287.jpg" alt="Marmota entre flores">
+        <h2 id="capitulo1">Capítulo 1</h2>
+        <img class="left-sided" src="camera-man-marmot-7272287.jpg" alt="Marmota entre flores">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, harum vero quae qui itaque accusantium
             perspiciatis eligendi ducimus saepe, ipsam accusamus illo? Tempore reprehenderit culpa amet enim beatae?
             Illum voluptates tenetur sed culpa voluptatem quia praesentium cumque iure, nemo temporibus! Assumenda,
@@ -61,10 +88,11 @@
             rerum nihil libero, dolorum vel voluptate. Libero, in sit. Nostrum culpa sapiente temporibus enim error sit
             maxime modi cupiditate ab numquam hic voluptatibus vero minima sed laudantium, id aut, earum officiis
             consequatur rem asperiores quam.</p>
+            <br class="clearing">
     </div>
     <div>
-        <h2></h2>
-        <img src="camera-man-marmot-8217424.jpg" alt="La Marmota y la piedra">
+        <h2 id="capitulo2">Capítulo 2</h2>
+        <img class="right-sided" src="camera-man-marmot-8217424.jpg" alt="La Marmota y la piedra">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, et dignissimos! Illum ipsa nemo aliquid
             distinctio. Neque recusandae fugiat obcaecati odit odio dolor laboriosam sint a asperiores mollitia,
             deleniti cum reprehenderit velit quaerat. Cum beatae sint eveniet quam aliquam quos, alias cupiditate a
@@ -80,10 +108,11 @@
             sapiente rem accusamus quas labore amet eius? Qui debitis nesciunt, molestiae ratione illum modi temporibus
             ipsam magni perspiciatis minima dolores laboriosam delectus doloremque expedita eius exercitationem
             consequatur enim doloribus nemo quibusdam voluptatem iure!</p>
+            <br class="clearing">
     </div>
     <div>
-        <h2></h2>
-        <img src="josefka-marmot-3740731.jpg" alt="Marmota al acecho">
+        <h2 id="capitulo3">Capítulo 3</h2>
+        <img class="img-centered" src="josefka-marmot-3740731.jpg" alt="Marmota al acecho">
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum ullam autem nihil molestiae tempore officia
             repellendus eos iusto? A officia quam laboriosam numquam ad perspiciatis doloremque ipsum aliquid atque at
             corrupti animi, unde dolores nisi repellendus magnam voluptate quasi id necessitatibus vero placeat quae
@@ -99,7 +128,7 @@
             minima reprehenderit aspernatur odio iste ratione velit corporis, ipsa reiciendis laboriosam numquam, qui a
             quo excepturi quisquam itaque dolor quod! Quibusdam beatae placeat ipsum facere nostrum cumque. Dolore
             dignissimos laborum molestias a non labore vero!</p>
-        <img src="susanne906-marmot-3983764.jpg" alt="Marmota oliendo">
+        <img class="img-centered" src="susanne906-marmot-3983764.jpg" alt="Marmota oliendo">
     </div>
     <ul>
         <li><a href="PRACTICA_3.html">Inicio</a></li>
